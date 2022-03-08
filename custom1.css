@@ -1,0 +1,145 @@
+/*Mentorship*/
+/*** Categories & Courses ***/
+.category img,
+.course-item img {
+    transition: .5s;
+}
+
+.category a:hover img,
+.course-item:hover img {
+    transform: scale(1.1);
+}
+
+
+/*** Testimonial ***/
+.tony {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(84,197,214,0.95);
+}
+
+.carousel-item i {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.card {
+    color: white;
+    padding:2rem;
+    background-color: #0f6674;
+    border-radius: 1.25rem;
+    height: auto;
+    width: 100%;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 1.5625rem solid transparent;
+    border-right: 1.5625rem solid transparent;
+    border-top: 1.25rem solid rgba(0, 0, 0, 0.5);
+}
+/*Activities*/
+
+section.upcoming-events {
+    background-image: url("assets/images/covid-g901d9aa23_1280.png");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 230px;
+    padding-bottom: 110px;
+}
+
+section.upcoming-events .section-heading {
+    text-align: center;
+}
+
+section.upcoming-events .events {
+    background-color: #fff3cd;
+    border-radius: 20px;
+    padding: 40px;
+    margin-right: 45px;
+
+}
+
+section.upcoming-events .events h4 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #1f272b;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+section.upcoming-events .events ul li {
+    margin-bottom: 15px;
+}
+
+section.upcoming-events .events ul li a {
+    font-size: 30px;
+    color: #1f272b;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+section.upcoming-events .events ul li a:hover {
+    color: #a12c2f;
+}
+
+.event-item {
+    border-radius: 6px;
+    padding: 6px;
+    margin-bottom: 30px;
+}
+
+.event-item .thumb {
+    position: relative;
+}
+
+.event-item .thumb img {
+    padding: 5px;
+}
+
+.event-item .down-content {
+    background-color: rgba(214,214,214,0.95);
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.event-item .down-content .date {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.event-item .down-content .date h6 {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #a12c2f;
+}
+
+.event-item .down-content .date span {
+    display: block;
+    color: #1f272b;
+    font-size: 22px;
+    margin-top: 7px;
+}
+
+.event-item .down-content h4 {
+    font-size: 18px;
+    color: #1f272b;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.event-item .down-content p {
+    margin-left: 50px;
+    color: #1f272b;
+    font-size: 20px;
+}

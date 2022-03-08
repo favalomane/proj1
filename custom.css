@@ -1,0 +1,221 @@
+/*About//*/
+.container {
+    display: flex;
+    max-width: 100%;
+    position: relative;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Style the list */
+ul.breadcrumb {
+    padding: 5px;
+    list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 20px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: rgba(84,197,214,0.95);
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 30px
+}
+.col {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .col {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 #9dd7e6;
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.sot{
+    width: 380px;
+    height: 480px;
+    background-color:white;
+    margin: 6% auto;
+    position: relative;
+    padding: 5px;
+    border-radius: 30px;
+
+}
+.blot{
+    background-image: url("assets/images/anatomical-g0a06b15ea_1920.jpg");
+    display: flex;
+}
+.social{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
+}
+.social1{
+    padding: 5px;
+    margin: 10px;
+    background: #90e8fd;
+    border-radius: 3px;
+}
+.facebook{
+    background: #3d77be;
+    color: white;
+    text-align: center;
+}
+.twitter{
+    background: #49bfdd;
+    color: white;
+    text-align: center;
+}
+.linkedin{
+    background: #515ec4;
+    color: white;
+    text-align: center;
+}
+.google{
+    background: #f0353a;
+    color: white;
+    text-align: center;
+}
+.rot{
+    background-image: url("assets/images/anatomical-g0a06b15ea_1920.jpg");
+    display: flex;
+    background-size: cover;
+}
+.tot{
+    width: 380px;
+    height: 450px;
+    position: center;
+    margin: 15% auto;
+    background: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.tlot{
+    border-radius: 30px;
+}
+.top{
+    display: flex;
+}
+.lot{
+    width: 30%;
+    display: table;
+    clear: both;
+    margin-top: 15%;
+    margin-left: 15%;
+
+
+}
+.lob{
+    width: 30%;
+    display: table;
+    clear: both;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+@media screen and (max-width: 600px) {
+    . {
+        width: 60%;
+    }
+}
+/*research*/
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.new {
+    background-color: rgba(124,214,214,0.95);
+    border-radius: 6px;
+    padding: 6px;
+    margin-bottom: 5px;
+}
+.bad{
+    background-color: #fff3cd;
+    border-radius: 6px;
+    padding: 40px;
+    margin-bottom: 45px;
+    float: left;
+}
+
+
+
+/*.l1{*/
+/*    padding: 64px;*/
+/*}*/
+/*.t1:after {*/
+/*    content: "";*/
+/*    display: table;*/
+/*    clear: both*/
+/*}*/
+/*.column-66{*/
+/*    float: left;*/
+/*    width: 66.66666%;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.column-33 {*/
+/*    float: left;*/
+/*    width: 33.33333%;*/
+/*    padding: 20px;*/
+/*}*/
+/*@media screen and (max-width: 1000px) {*/
+/*    .column-66,*/
+/*    .column-33 {*/
+/*        width: 100%;*/
+/*        text-align: center;*/
+/*    }*/
+/*    img {*/
+/*        margin: auto;*/
+/*    }*/
+/*}*/
