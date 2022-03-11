@@ -1,9 +1,9 @@
 <?php
-if (!isset($_SESSION['nID'])) {
-    header("Location: login.php");
-    die();
-}
-?>
+//if (!isset($_SESSION['nID'])) {
+//    header("Location: login.php");
+//    die();
+//}
+//?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,13 +12,11 @@ if (!isset($_SESSION['nID'])) {
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
-    <!-- Additional CSS Files -->
     <script src="assets/bootstrap1/js/popper.min.js"></script>
     <script src="assets/bootstrap1/js/jquery-3.4.0.js"></script>
     <script src="assets/bootstrap1/js/bootstrap.js"></script>
     <link rel="stylesheet" href="assets/bootstrap1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
+
     <link rel="stylesheet" href="custom1.css">
 </head>
 <body class="body">

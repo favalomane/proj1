@@ -1,9 +1,9 @@
 <?php
-if (!isset($_SESSION['nID'])) {
-    header("Location: login.php");
-    die();
-}
-?>
+//if (!isset($_SESSION['nID'])) {
+//    header("Location: login.php");
+//    die();
+//}
+//?>
 
 <!doctype html>
 <html lang="en">

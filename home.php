@@ -11,6 +11,8 @@
     <script src="assets/bootstrap1/js/bootstrap.js"></script>
     <link rel="stylesheet" href="assets/bootstrap1/css/bootstrap.min.css">
     <link rel="stylesheet" href="custom.css">
+    <script src="assets/bootstrap1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
 </head>
 <body>
      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
@@ -86,8 +88,47 @@
              <span class="carousel-control-next-icon"></span>
          </a>
      </div>
-     <div>
-
+     <div class="container-xxl py-5">
+         <div class="container">
+             <div class="row g-4">
+                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                     <div class="service-item text-center pt-3">
+                         <div class="p-4">
+                             <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                             <h5 class="mb-3">Skilled Mentors</h5>
+                             <p>We have skilled mentors who are certified doctors and higher leveled medics.</p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                     <div class="service-item text-center pt-3">
+                         <div class="p-4">
+                             <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                             <h5 class="mb-3">Online Classes</h5>
+                             <p>For convenience,we offer online mentor classes.In the event of one on one classes,they are also available.</p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                     <div class="service-item text-center pt-3">
+                         <div class="p-4">
+                             <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                             <h5 class="mb-3">Research Projects</h5>
+                             <p>Get involved in research projects speared headed by peers and facilitated by certified researchers.</p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                     <div class="service-item text-center pt-3">
+                         <div class="p-4">
+                             <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
+                             <h5 class="mb-3">Publication Library</h5>
+                             <p>All publications are available in our library and they are still being updated everyday.</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
      </div>
 </body>
 </html>

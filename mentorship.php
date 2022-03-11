@@ -1,9 +1,9 @@
 <?php
-if (!isset($_SESSION['nID'])) {
-    header("Location: login.php");
-    die();
-}
-?>
+//if (!isset($_SESSION['nID'])) {
+//    header("Location: login.php");
+//    die();
+//}
+//?>
 
 <!doctype html>
 <html lang="en">
@@ -13,22 +13,16 @@ if (!isset($_SESSION['nID'])) {
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="img/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
     <link href="assets/bootstrap1/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
-    <link href="custom1.css" rel="stylesheet">
+    <script src="assets/bootstrap1/js/popper.min.js"></script>
+    <script src="assets/bootstrap1/js/jquery-3.4.0.js"></script>
+    <script src="assets/bootstrap1/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap1/css/bootstrap.min.css">
+    <script src="assets/bootstrap1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="custom1.css">
 </head>
-<body>
+<body class="blob">
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
     <a class="navbar-brand" href="home.php">
         <i class="fa-light fa-heart-pulse"></i>
@@ -79,29 +73,28 @@ if (!isset($_SESSION['nID'])) {
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
                 <h1 class="mb-4">Welcome to Mentorship</h1>
                 <p class="mb-4">We offer a mentorship programme for all those who want assistance in their course units as well as reading
                     materials,links to pathoma websites and usmle papers.We offer discussion groups with mentors leading and also one on one
                     meeting times with mentors.Mentors are not oly other students but also certified doctors.</p>
                 <div class="row gy-2 gx-4 mb-4">
                     <div class="col-sm-6">
-                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled mentors</p>
+                        <p class="mb-0"><i class="fa-solid fa-brain"></i>Skilled mentors</p>
                     </div>
                     <div class="col-sm-6">
-                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
+                        <p class="mb-0"><i class="fa-solid fa-brain"></i>Online Classes</p>
                     </div>
                     <div class="col-sm-6">
-                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Discussion groups</p>
+                        <p class="mb-0"><i class="fa-solid fa-brain"></i>Discussion groups</p>
                     </div>
                     <div class="col-sm-6">
-                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Workshops</p>
+                        <p class="mb-0"><i class="fa-solid fa-brain"></i>Workshops</p>
                     </div>
                     <div class="col-sm-6">
-                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>One on one meetings</p>
+                        <p class="mb-0"><i class="fa-solid fa-brain"></i>One on one meetings</p>
                     </div>
                     <div class="col-sm-6">
-                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>USMLE and pathoma links</p>
+                        <p class="mb-0"><i class="fa-solid fa-brain"></i>USMLE and pathoma links</p>
                     </div>
                 </div>
                 <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
@@ -109,14 +102,9 @@ if (!isset($_SESSION['nID'])) {
         </div>
     </div>
 </div>
-<!-- About End -->
-
-
-<!-- Categories Start -->
 <div class="container-xxl py-5 category">
     <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
             <h1 class="mb-5">Courses Categories</h1>
         </div>
         <div class="row g-3">
@@ -163,8 +151,6 @@ if (!isset($_SESSION['nID'])) {
         </div>
     </div>
 </div>
-<!-- Categories Start -->
-<!-- Testimonial Start -->
  <div class="container tony">
      <div class="row">
          <div class="col-12">
@@ -176,21 +162,18 @@ if (!isset($_SESSION['nID'])) {
      <div class="row">
          <div class="col-lg-12 col-md-12 col-sm-12">
              <div id="testimony" class="carousel slide testimony" data-ride="carousel">
-<!--                 indicators/-->
                  <ul  class="carousel-indicators">
                      <li data-target="#testimony" data-slide-to="0" class="active"></li>
                      <li data-target="#testimony" data-slide-to="1"></li>
                      <li data-target="#testimony" data-slide-to="2"></li>
                  </ul>
-<!--                 indicators/-->
-                 <!-- Wrapper for slides -->
                  <div class="carousel-inner">
                      <div class="carousel-item active">
                          <div class="row p-4">
                              <div class="card">
-                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
-                                 <p class="lh-lg">Very informative</p>
-                                 <i class="fa fa-quote-right" aria-hidden="true"></i><br>
+                                 <i class="fa-solid fa-quote-left"></i>
+                                 <p class="lh-lg text-primary">Very informative</p>
+                                 <i class="fa-solid fa-quote-right"></i><br>
                              </div>
                              <div class="row">
                                  <div class="col-sm-2 pt-3">
@@ -209,9 +192,9 @@ if (!isset($_SESSION['nID'])) {
                      <div class="carousel-item">
                          <div class="row p-4">
                              <div class="card">
-                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
-                                 <p class="lh-lg">Great opportunities and enjoyable </p>
-                                 <i class="fa fa-quote-right" aria-hidden="true"></i><br>
+                                 <i class="fa-solid fa-quote-left"></i>
+                                 <p class="lh-lg text-black-50">Great opportunities and enjoyable </p>
+                                 <i class="fa-solid fa-quote-right"></i><br>
                              </div>
                              <div class="row">
                                  <div class="col-sm-2 pt-4">
@@ -230,10 +213,10 @@ if (!isset($_SESSION['nID'])) {
                      </div>
                      <div class="carousel-item">
                          <div class="row p-4">
-                             <div class="t-card">
-                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
-                                 <p class="lh-lg">Review goes here...</p>
-                                 <i class="fa fa-quote-right" aria-hidden="true"></i><br>
+                             <div class="card">
+                                 <i class="fa-solid fa-quote-left"></i>
+                                 <p class="lh-lg text-primary">Had a lot of fun.Gained experience</p>
+                                 <i class="fa-solid fa-quote-right"></i></i><br>
                              </div>
                              <div class="row text-lg-start">
                                  <div class="col-sm-2 pt-4 align-items-center">
@@ -242,8 +225,8 @@ if (!isset($_SESSION['nID'])) {
                                  <div class="col-sm-10">
                                      <div class="arrow-down d-none d-md-block"></div>
                                      <h4><strong>Patrick muriungi</strong></h4>
-                                     <p class="testimonial_subtitle"><span>Web Technologist</span><br>
-                                         <span>Vaxa digital</span>
+                                     <p class="testimonial_subtitle"><span>Biochemical Technologist</span><br>
+                                         <span>KEMRI</span>
                                      </p>
                                  </div>
                              </div>
@@ -251,7 +234,6 @@ if (!isset($_SESSION['nID'])) {
                      </div>
                  </div>
              </div>
-<!--             controls-->
              <a class="carousel-control-prev" href="#testimony" data-slide="prev">
                  <span class="carousel-control-prev-icon"></span>
              </a>
@@ -260,8 +242,5 @@ if (!isset($_SESSION['nID'])) {
          </div>
      </div>
  </div>
-
-<!-- Testimonial End -->
-
 </body>
 </html>

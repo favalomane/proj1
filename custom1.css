@@ -1,4 +1,8 @@
 /*Mentorship*/
+.blob{
+    display: flex;
+    background-image: url("assets/images/trees-g1e1bb01eb_1920.jpg");
+}
 /*** Categories & Courses ***/
 .category img,
 .course-item img {
@@ -20,12 +24,11 @@
 
 .carousel-item i {
     font-size: 1.6rem;
-    color: white;
+    color: #0f6674;
 }
 
 .card {
-    color: white;
-    padding:2rem;
+    padding:2px;
     background-color: #0f6674;
     border-radius: 1.25rem;
     height: auto;
